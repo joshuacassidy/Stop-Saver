@@ -93,7 +93,7 @@
                         </li>
                         <li class="collection-item" >
                           <p>
-                            <strong>Due in: </strong>
+                            <strong>Bus Number: </strong>
                             <span id="due">${data.results[j].route}</span>
                           </p>
                           <p>
