@@ -6,7 +6,7 @@
     
     // Removing Special Characters from Strings to Prevent Cross Side Scripting
     function sanitizeString($string) {
-        return preg_replace("/[^\w\s@.]/", "", $string);
+        return preg_replace("/[^\w\s@.!?]/", "", $string);
     }
     
     // Create bus journeys, inserting user inuts into database.
@@ -114,7 +114,7 @@
             $stmt->bindParam(':email', $email);
             $email = sanitizeString($email);
             $stmt->bindParam(':password', $password);
-            $password = sanitizeString($password);
+            // $password = sanitizeString($password);
             $stmt->execute();
             return getUserEmail($username);
         }catch(\Exception $e){
