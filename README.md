@@ -13,4 +13,4 @@ Users can also do quick-search on stop no. without having to register and login.
 stop no.
 
 # Your lucky travel Number
-Stop-Saver also provides some interesting feature where users are given with a random number and its lucky fact using Numbers-api. The random number changes everytime the page is refreshed.
+Stop-Saver also provides some interesting feature where users are given with a random number and its lucky fact using Numbers API. The random number changes everytime the page is refreshed.
