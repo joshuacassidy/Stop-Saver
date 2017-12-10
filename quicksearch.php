@@ -37,7 +37,7 @@
                                       <li class="collection-item" >
                                         <p>
                                           <strong>Bus Number: </strong>
-                                          <span id="route">${data.results[j].route}</span>
+                                          <span id="bus">${data.results[j].route}</span>
                                         </p>
                                         <p>
                                           <strong>Due in: </strong>
@@ -49,7 +49,7 @@
                                         </p>
                                         <p>
                                           <strong>Destination: </strong>
-                                          <span id="departure-time">${data.results[j].destination}</span>
+                                          <span id="destination">${data.results[j].destination}</span>
                                         </p>
                                       </li>
                                 </ul>
@@ -61,7 +61,7 @@
                                 <li class="collection-header grey lighten-4" >
                                     <h5>
                                         <i class="material-icons">directions_bus</i>
-                                        <span id="route">Invalid Stop Number: ${quicksearch}</span>
+                                        <span id="bus">Invalid Stop Number: ${quicksearch}</span>
                                     </h5>
                                 </li>
                                 <li class="collection-item" >

@@ -114,7 +114,6 @@
             $stmt->bindParam(':email', $email);
             $email = sanitizeString($email);
             $stmt->bindParam(':password', $password);
-            // $password = sanitizeString($password);
             $stmt->execute();
             return getUserEmail($username);
         }catch(\Exception $e){

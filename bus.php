@@ -94,11 +94,11 @@
                         <li class="collection-item" >
                           <p>
                             <strong>Bus Number: </strong>
-                            <span id="due">${data.results[j].route}</span>
+                            <span id="bus">${data.results[j].route}</span>
                           </p>
                           <p>
                             <strong>Due in: </strong>
-                            <span id="departure-time">${data.results[j].duetime === "Due" ? data.results[j].duetime : data.results[j].duetime+ " Minutes"} </span>
+                            <span id="due">${data.results[j].duetime === "Due" ? data.results[j].duetime : data.results[j].duetime+ " Minutes"} </span>
                           </p>
                           <p>
                             <strong>Departure time: </strong>
@@ -106,7 +106,7 @@
                           </p>
                           <p>
                             <strong>Destination: </strong>
-                            <span id="departure-time">${data.results[j].destination}</span>
+                            <span id="destination">${data.results[j].destination}</span>
                           </p>
                         </li>
                       </ul>`
@@ -118,7 +118,7 @@
                   <li class="collection-header grey lighten-4" >
                     <h5>
                       <i class="material-icons">directions_bus</i>
-                      <span id="route">Invalid Stop Number: ${stopNumber}</span>
+                      <span id="bus">Invalid Stop Number: ${stopNumber}</span>
                     </h5>
                   </li>
                   <li class="collection-item" ><p><strong>Error:</strong> This bus stop is invalid!!!</p><br/></li>
