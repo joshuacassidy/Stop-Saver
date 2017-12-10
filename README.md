@@ -1,3 +1,3 @@
 # Stop-Saver
-Stop-Saver is a Rich Web Application with full CRUD functionality that allows user to search for bus stops in dublin, using 
+Stop-Saver is a Rich Web Application with full CRUD functionality that allows user to search for bus stops in Dublin, using 
 Dublin Bus API to pull the data from, and save information about their favourite buses.
