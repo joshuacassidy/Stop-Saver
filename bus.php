@@ -117,7 +117,7 @@
                 <ul class="collection with-header" >
                   <li class="collection-header grey lighten-4" >
                     <h5>
-                      <i class="material-icons">directions_bus</i>
+                      <i class="material-icons">error</i>
                       <span id="bus">Invalid Stop Number: ${stopNumber}</span>
                     </h5>
                   </li>
