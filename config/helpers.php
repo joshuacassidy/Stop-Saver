@@ -145,7 +145,7 @@
                 request()->cookies->get('access_token'),
                 getenv('KEY'),
                 ['HS256']
-                );
+            );
                 return true;
         }catch(\Exception $e){
                 return false;
