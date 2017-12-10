@@ -9,7 +9,7 @@
         return preg_replace("/[^\w\s@.!?]/", "", $string);
     }
     
-    // Create bus journeys, inserting user inuts into database.
+    // Create bus journeys, inserting user inputs into database.
     function addJourney($title, $stop_number) {
         global $db;
         $ownerId = getUser();
@@ -198,3 +198,4 @@
             ]
         );
     }
+?>
